@@ -53,6 +53,7 @@ client.on("message", async (msg) => {
 //#endregion whatsapp-web.js
 
 //#region Express API Endpoints
+// API to get QR Code to connect to Whatsapp in image base64 format
 app.get("/api/qrcode", (req, res) => {
   res.send({ qrcode: base64DataUrl });
 });

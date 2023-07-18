@@ -55,7 +55,7 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [Node](https://nodejs.org/en/) and [Postman](https://www.postman.com/downloads/) installed.
 
 ## :checkered_flag: Starting ##
 
@@ -75,15 +75,22 @@ $ node index.js
 # The server will initialize in the <http://localhost:3000>
 ```
 
-After the service has started, it will show a QR Code to let your WA account connects to the service.
-Use postman API Collection to test send message.
+Import wwjs-api.json file into Postman from folder postman-collections.
+
+After the service has started, it will show a QR Code in two ways:
+1. In console terminal; and
+2. Using API request from Postman API Collections' GET api qrcode in image base64 format.
+... so you can scan from your WA apps on your phone.
+
+Use Postman API Collections' POST api send-message to test send message.
+
 You can stop the service in two ways:
 1. By pressing Ctrl+C buttons and disconnect your WA account from your WA's phone app; or
 2. Just disconnect directly from your WA's phone app.
 
 This project example is far from perfect, and just intended for your starting point learning how to make a Whatsapp gateway.
 
-You're encouraged to read full documentation from official whatsapp-web.js github <a href="https://github.com/pedroslopez/whatsapp-web.js">repository</a> or visit to <a href="">https://wwebjs.dev</a>.
+You're encouraged to read full documentation from official whatsapp-web.js github <a href="https://github.com/pedroslopez/whatsapp-web.js">repository</a> or visit to <a href="https://wwebjs.dev">whatsaap-web.js official website</a>.
 
 ## :memo: Disclaimer ##
 

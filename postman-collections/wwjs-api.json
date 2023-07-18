@@ -40,6 +40,26 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "api qrcode",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/qrcode",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"qrcode"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
