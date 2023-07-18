@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "2d73afad-8428-41fa-90cc-fce42d14906b",
+		"name": "wwjs-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5889819"
+	},
+	"item": [
+		{
+			"name": "api send-message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "number",
+							"value": "08123456789",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Tes kirim pesan via API",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/send-message",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"send-message"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
