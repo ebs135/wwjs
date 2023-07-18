@@ -88,6 +88,9 @@ You can stop the service in two ways:
 1. By pressing Ctrl+C buttons and disconnect your WA account from your WA's phone app; or
 2. Just disconnect directly from your WA's phone app.
 
+Note:
+If you're planning run this project as service, you can use your favorite node.js daemonize module (nodemon or pm2).
+
 This project example is far from perfect, and just intended for your starting point learning how to make a Whatsapp gateway.
 
 You're encouraged to read full documentation from official whatsapp-web.js github <a href="https://github.com/pedroslopez/whatsapp-web.js">repository</a> or visit to <a href="https://wwebjs.dev">whatsaap-web.js official website</a>.
