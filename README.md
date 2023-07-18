@@ -80,6 +80,7 @@ Import wwjs-api.json file into Postman from folder postman-collections.
 After the service has started, it will show a QR Code in two ways:
 1. In console terminal; and
 2. Using API request from Postman API Collections' GET api qrcode in image base64 format.
+
 ... so you can scan from your WA apps on your phone.
 
 Use Postman API Collections' POST api send-message to test send message.
@@ -93,7 +94,7 @@ If you're planning run this project as service, you can use your favorite node.j
 
 This project example is far from perfect, and just intended for your starting point learning how to make a Whatsapp gateway.
 
-You're encouraged to read full documentation from official whatsapp-web.js github <a href="https://github.com/pedroslopez/whatsapp-web.js">repository</a> or visit to <a href="https://wwebjs.dev">whatsaap-web.js official website</a>.
+You're encouraged to read full documentation from official whatsapp-web.js github <a href="https://github.com/pedroslopez/whatsapp-web.js">repository</a> or visit to whatsaap-web.js official <a href="https://wwebjs.dev">website</a>.
 
 ## :memo: Disclaimer ##
 
